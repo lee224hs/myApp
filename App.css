@@ -1,0 +1,154 @@
+/* 전체 배경 */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+
+/* 전체 컨테이너 */
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* 제목 */
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+/* 로그인 링크 */
+
+.login-link {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  color: #2563eb;
+}
+
+
+/* 입력 폼 */
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+/* 입력창 */
+
+input {
+  flex: 1;
+
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+
+/* 버튼 */
+
+button {
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #4a90e2;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+
+/* Todo 아이템 */
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f8f9fa;
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+  border-radius: 8px;
+}
+
+
+/* Todo 텍스트 */
+
+.todo-text {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* 완료 상태 */
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+/* 상세보기 링크 */
+
+.detail-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
+}
+
+
+/* 상세 페이지 */
+
+.detail-box {
+  line-height: 2;
+  font-size: 18px;
+}
+
+
+/* 로그인 페이지 */
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
